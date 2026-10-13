@@ -1,7 +1,7 @@
 # lab3-task
 
 ## About Me
-I am a Computer Science student learning GitHub.
+Hello Eng Osama I am Ahmed Omran 241001424.
 
-## Project Goal
-This project helps me understand repositories, branches, commits, pull requests, and merging.
+## the task
+i did the task with eng monir lawendy as i told you i hope you gimme the total grade and sorry about this all.
