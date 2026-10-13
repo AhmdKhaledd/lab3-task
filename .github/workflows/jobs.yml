@@ -2,20 +2,21 @@
 name: jobs
 
 on:
-  ubuntu-latest:
+  push:
+    branches: [main]
 
 jobs:
   job1:
-    name: Job 1 - Build
+    name: Job1
     runs-on: ubuntu-latest
     steps:
       - name: Build message
-        run: echo "Job 1: Build completed successfully!"
+        run: "Job 1: Build completed successfully!"
 
   job2:
-    name: Job 2 - Test
+    name: Job2
     runs-on: ubuntu-latest
     needs: job1
     steps:
       - name: Test message
-        run: echo "Job 2: Test completed successfully!"
+        run: "Job 2: Test completed successfully!"
