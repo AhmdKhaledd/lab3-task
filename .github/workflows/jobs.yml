@@ -3,20 +3,17 @@ name: jobs
 
 on:
   push:
-    branches: [main]
+    branches: 
+        - main
 
 jobs:
   job1:
-    name: Job1
     runs-on: ubuntu-latest
     steps:
-      - name: Build message
-        run: "Job 1: Build completed successfully!"
+      - run: "Job 1: Build completed successfully!"
 
   job2:
-    name: Job2
     runs-on: ubuntu-latest
     needs: job1
     steps:
-      - name: Test message
-        run: "Job 2: Test completed successfully!"
+      - run: "Job 2: Test completed successfully!"
