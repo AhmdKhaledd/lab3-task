@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Build
-          run: echo 'Jugtob 1: Build completed successfully!'
+          run: echo "Job1 Build completed successfully!"
 
   job2:
     runs-on: ubuntu-latest
